@@ -24,4 +24,6 @@ set ruler
 set undolevels=1000
 set backspace=indent,eol,start
 
+noremap <Leader>\t :botright vertical terminal<CR>
+
 autocmd vimenter * NERDTree
